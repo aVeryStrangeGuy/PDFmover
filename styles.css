@@ -1,0 +1,50 @@
+.button-litrature.button-primary{
+	float: left;
+	margin-bottom: 5px;
+	margin-right: 5px; 
+}
+table.small_form, form.small_form {
+	max-width: 850px;
+}
+.small_form{
+	max-width: 825px;
+}
+.success_lit{ 
+	background-color: lightgreen;
+	padding: 5px 0; 
+	margin: 0 10px;
+	text-align:center; 
+}
+.error_lit{
+	background-color:OrangeRed;  
+	text-align:center; 
+	color:white;
+	padding: 5px 0;
+}
+.id_column{
+	width: 50px
+}
+
+.filename{
+	max-width: 50%;
+}
+.draftlabel{
+	padding-right: 20px;
+}
+.updatePDFlabel{
+	text-align: center; 
+	font-weight: bold;
+}
+input[type="radio"].spacer {
+	margin-left: 20px !important;
+}
+
+@media screen and (max-width: 782px){
+	.hide-columns{
+		display: none;
+	}
+	.button-litrature.button-primary{
+		margin-bottom: 10px;
+	}
+}
+
